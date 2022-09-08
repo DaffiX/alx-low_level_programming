@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '#!/bin/bash\ngcc -E $CFILE -oc' > 0-preprocessor
+gcc $CFILE -E -o c
