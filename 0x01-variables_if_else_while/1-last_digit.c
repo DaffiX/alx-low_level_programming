@@ -13,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() -  RAND_MAX / 2;
-	dig = n % 10;
+	int dig = n % 10;
 
 	if (dig > 5)
 	{
