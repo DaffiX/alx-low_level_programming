@@ -6,13 +6,15 @@
  */
 int main(void)
 {
-	char c[] = "Papadafix";
-	int i;
-
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
+	_putchar('A');
+	_putchar('l');
+	_putchar('x');
+	_putchar('s');
+	_putchar('e');
+	_putchar('p');
+	_putchar('r');
+	_putchar('o');
+	_putchar('g');
 	_putchar('\n');
 	return (0);
 }
