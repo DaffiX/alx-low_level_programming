@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main - Entry point print the characters 
  * Return: 0 on success.
  */
 int main(void)
