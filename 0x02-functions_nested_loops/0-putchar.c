@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point print the characters 
+ * main - Entry point print the characters
  * Return: 0 on success.
  */
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 	char c[] = "PapaDaffy";
 	int i;
 
-	for (i = 0; i < 4; i++)
+	for (i = 0; i < 9; i++)
 	{
 		_putchar(c[i]);
 	}
