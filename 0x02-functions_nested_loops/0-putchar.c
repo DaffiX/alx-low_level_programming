@@ -14,7 +14,6 @@ int main(void)
 	_putchar('p');
 	_putchar('r');
 	_putchar('o');
-	_putchar('g');
 	_putchar('\n');
 	return (0);
 }
