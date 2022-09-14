@@ -1,19 +1,18 @@
-#include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point print the characters
+ * main - prints the string "Alxseprog" from a character array.
+ * @i - take each char in array
  * Return: 0 on success.
  */
 int main(void)
 {
-	_putchar('H');
-	_putchar('o');
-	_putchar('l');
-	_putchar('b');
-	_putchar('e');
-	_putchar('r');
-	_putchar('t');
-	_putchar('o');
+	char c[] = "Alxseprog";
+	int i;
+
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(c[i]);
+	}
 	_putchar('\n');
 	return (0);
 }
