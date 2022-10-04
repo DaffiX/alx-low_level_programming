@@ -1,12 +1,3 @@
-  1
-~
-~
-~
-~
-~
-~
-~
-~
 #include <stdlib.h>
 #include "main.h"
 
