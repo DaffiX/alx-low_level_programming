@@ -7,21 +7,6 @@
 ~
 ~
 ~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
--- INSERT --                                                  0,1           All
 #include <stdlib.h>
 #include "main.h"
 
