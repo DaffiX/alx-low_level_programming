@@ -1,5 +1,3 @@
-#!/usr/bin/bash
-
-gcc *.c -c -fPIC 
-gcc *.o -shared -o liball.so
-LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
+#!/bin/bash
+gcc -Wall -fPIC -c *.c
+gcc -shared -o liball.so *.o
